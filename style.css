@@ -21,7 +21,7 @@ header a{
     padding: 12px 25px;
     color: #630b28;
     border-radius: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
     display: block;
     align-items: right;
     border: 2px solid hsl(337, 87%, 57%);
@@ -37,6 +37,7 @@ body{
     background-color: black;
     min-height: 100vh;
     display: flex;
+    margin: 50px ;
     align-items: center;
     font-size: 15px;
     font-family: 'Lexend Deca', sans-serif;
