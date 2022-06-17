@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+header a{
+    
+    text-decoration: none;
+    background-color: hsl(337, 87%, 57%);
+    padding: 12px 25px;
+    color: #630b28;
+    border-radius: 20px;
+    margin-top: 10px;
+    display: block;
+    align-items: right;
+    border: 2px solid hsl(337, 87%, 57%);
+    transition: all .4s ease-in-out;
+    justify-items: left;
+
+}
+header a:hover{
+    color: white;
+    background-color: transparent;
+}*
+body{
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    
+}
+
+ main{
+    background-color:hsl(0, 0%, 95%) ;
+    max-width: 960px;
+    margin: auto;
+    padding: 50px;
+    justify-items: center;
+    align-items: center;
+ }
+ main a{
+     text-decoration: none;
+     color: white;
+    background-color: hsl(118, 74%, 32%);
+    padding: 12px 25px;
+    border-radius: 20px;
+    margin-top: 60px;
+    display: inline-block;
+    border: 2px solid hsl(118, 74%, 32%);
+    transition: all .4s ease-in-out;
+
+ }
+ .box{
+    display: flex;
+   flex-direction: row;
+   border-radius: 5px;
+   margin: 2rem;
+   overflow: hidden;
+ }
+ .container{
+    padding: 40px;
+ }
+
+ .box1{
+   
+    background-color: hsl(31, 77%, 52%);
+ }
+ .box2{
+    
+    background-color: hsl(184, 100%, 22%);
+ }
+ .box3{
+   
+    background-color: hsl(179, 100%, 13%);
+ }
+.container h2{
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+}
+.container p{
+    color:  hsla(0, 0%, 100%, 0.75);
+    line-height: 1.6;
+}
+.container a{
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    padding: 12px 25px;
+    border-radius: 20px;
+    margin-top: 60px;
+    display: inline-block;
+    border: 2px solid hsl(0, 0%, 95%);
+    transition: all .4s ease-in-out;
+
+}
+.container img{
+    margin-bottom: 20px;
+}
+.box1 a{
+    color: hsl(31, 77%, 52%);
+}
+.box2 a{
+    color: hsl(184, 100%, 22%);
+}
+.box3 a{
+    color: hsl(179, 100%, 13%);
+}
+
+.container a:hover{
+    color: white;
+    background-color: transparent;
+}
+
+@media screen  and (max-width: 765px){
+    .box{
+       flex-direction: column;
+    }
+}

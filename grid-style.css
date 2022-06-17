@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+.page-link{
+    text-decoration: none;
+    background-color: hsl(337, 87%, 57%);
+    padding: 12px 25px;
+    color: #630b28;
+    border-radius: 20px;
+    margin-top: 10px;
+    display: inline-block;
+    border: 2px solid hsl(337, 87%, 57%);
+    transition: all .4s ease-in-out;
+
+}
+.page-link:hover{
+    color: white;
+    background-color: transparent;
+}
+body{
+    background-color: #630b28;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+main{
+    display: grid;
+    grid-template-areas:
+    'a a b'
+    'a a b'
+    'c d d'
+    'c e e';
+    gap: 10px;
+    width: 50%;
+    padding: 10%;
+    margin: 10%;
+   
+  
+  }
+  main div{
+      padding: 2em;
+      text-align: center ;
+  }
+  .item-a{
+      background-color: #f74c21;
+      grid-area: a;
+  }
+  .item-b{
+      background-color: #fa9f29f8;
+      grid-area: b;
+  }
+  .item-c{
+      background-color: #07971a;
+      grid-area: c;
+  }
+  .item-d{
+      background-color: #0992e1;
+      grid-area: d;
+  }
+  .item-e{
+      background-color: #0992e1;
+      grid-area: e;
+  }
+
